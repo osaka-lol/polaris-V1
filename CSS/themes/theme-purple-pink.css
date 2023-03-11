@@ -16,3 +16,7 @@ body {
     background-position: 0% 50%;
   }
 }
+
+.startpagename {
+  text-shadow: 6vmin 6vmin #d93beb, 6vmin 6vmin 16vmin #d93beb;
+}

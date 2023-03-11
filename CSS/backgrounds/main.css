@@ -1,17 +1,12 @@
-.background_one {
-  background: linear-gradient(111deg,#ff23b5,#8b2ddb);
-  background-size: 120% 120%;
-  animation: gradient-animation 10s ease infinite;
+/* Style for the dropdown menu */
+label, select {
+  font-size: 18px;
+  margin: 10px;
 }
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+/* Style for the h1 heading */
+h1 {
+  font-size: 36px;
+  margin: 20px;
+  text-align: center;
 }

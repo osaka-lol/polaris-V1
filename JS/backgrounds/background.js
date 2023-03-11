@@ -1,12 +1,14 @@
-// Get the <select> element and the <link> element
-const cssSelector = document.getElementById('css-selector');
-const cssFile = document.getElementById('css-file');
+  const cssSelector = document.getElementById("css-selector");
+  cssSelector.addEventListener("change", function() {
+    const selectedCss = cssSelector.value;
+    const linkTag = document.getElementById("custom-css");
+    linkTag.href = selectedCss;
+    localStorage.setItem("selectedCss", selectedCss);
+  });
 
-// Listen for changes to the <select> element
-cssSelector.addEventListener('change', function() {
-  // Get the selected value
-  const selectedValue = cssSelector.value;
-
-  // Change the href of the <link> element to the selected CSS file
-  cssFile.href = selectedValue;
-});
+  const storedCss = localStorage.getItem("selectedCss");
+  if (storedCss) {
+    const linkTag = document.getElementById("custom-css");
+    linkTag.href = storedCss;
+    cssSelector.value = storedCss;
+  }

@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 .startpagename {
   /*header on the start page index.html*/
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Lilita One';
   font-size: 25vmin;
   padding-top: 10vmin;
   margin: auto;

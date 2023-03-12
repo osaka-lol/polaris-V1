@@ -18,5 +18,5 @@ body {
 }
 
 .startpagename {
-  text-shadow: 1.2vmin 1.2vmin rgba(192,64,105,255), 1.2vmin 1.2vmin 1.2vmin rgba(192,64,105,255);
+  text-shadow: 1.2vmin 1.2vmin #ff9326, 1.2vmin 1.2vmin 1.2vmin #ff9326;
 }

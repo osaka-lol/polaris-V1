@@ -1,17 +1,22 @@
-const selectElement = document.querySelector('#style-select');
-const styleElement = document.querySelector('#style');
-
-// Check if a stylesheet preference has been saved in local storage
-const savedStyle = localStorage.getItem('style');
-if (savedStyle) {
-  styleElement.setAttribute('href', savedStyle);
-  selectElement.value = savedStyle;
+// script.js
+function changeStyle() {
+  var styleSelect = document.getElementById("styleSelect");
+  var selectedStyle = styleSelect.options[styleSelect.selectedIndex].value;
+  var styleLink = document.getElementById("style");
+  styleLink.href = selectedStyle;
+  localStorage.setItem("selectedStyle", selectedStyle);
 }
 
-selectElement.addEventListener('change', (event) => {
-  const selectedOption = event.target.value;
-  styleElement.setAttribute('href', selectedOption);
-  
-  // Save the selected option to local storage
-  localStorage.setItem('style', selectedOption);
-});
+// load selected style from local storage
+var selectedStyle = localStorage.getItem("selectedStyle");
+if (selectedStyle) {
+  var styleLink = document.getElementById("style");
+  styleLink.href = selectedStyle;
+  var styleSelect = document.getElementById("styleSelect");
+  for (var i = 0; i < styleSelect.options.length; i++) {
+    if (styleSelect.options[i].value == selectedStyle) {
+      styleSelect.selectedIndex = i;
+      break;
+    }
+  }
+}

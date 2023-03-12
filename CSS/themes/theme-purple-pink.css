@@ -18,5 +18,5 @@ body {
 }
 
 .startpagename {
-  text-shadow: 2vh 2vh #d93beb, 2vh 2vh 5vh #000000;
+  text-shadow: 1.2vmin 1.2vmin #d93beb, 1.2vmin 1.2vmin 1.2vmin #000000;
 }

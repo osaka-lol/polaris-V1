@@ -10,5 +10,9 @@
 }
 
 .startpagename {
-  text-shadow: 1.2vmin 1.2vmin #771c9e, 1.2vmin 1.2vmin 10vmin #771c9e;
+  text-shadow: 1.2vmin 1.2vmin /*#771c9e*/#d93beb, 1.2vmin 1.2vmin 10vmin #d93beb;
 }
+
+.startpagename {
+  color: rgb(255, 255, 255);
+} 

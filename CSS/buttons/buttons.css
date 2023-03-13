@@ -17,4 +17,5 @@
 }
 .startpagebutton:active{
  transform: scale(0.98);
+ transform: translateY(1vmin);
 }

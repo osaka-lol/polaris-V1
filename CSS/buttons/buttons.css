@@ -4,7 +4,7 @@
  font-weight: 800;
  font-style: normal;
  text-decoration: none;
- padding: 1vmin 3vmin;
+ padding: 1.5vmin 3vmin;
  border: 0px solid #000;
  border-radius: 26px;
  display: inline-block;
@@ -16,5 +16,5 @@
  cursor: pointer;
 }
 .startpagebutton:active{
- transform: scale(0.95);
+ transform: scale(0.98);
 }

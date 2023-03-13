@@ -31,16 +31,6 @@
  background: linear-gradient(to right,#9507e1 ,#e77206);
  background-color: #9507e1;
  color: #fff;
- font-family: Trebuchet MS;
- font-size: 18px;
- font-weight: 800;
- font-style: normal;
- text-decoration: none;
- padding: 12px 15px;
- border: 0px solid #000;
- border-radius: 26px;
- display: inline-block;
- box-shadow: 0px 5px 15px 5px #2D2D2D;
 }
 .startpagebutton:hover{
  background: linear-gradient(to right,#a351e4 ,#ea8751);

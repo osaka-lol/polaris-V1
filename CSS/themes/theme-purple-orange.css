@@ -26,15 +26,3 @@
 .startpagename {
   text-shadow: 1.2vmin 1.2vmin #771c9e, 1.2vmin 1.2vmin 10vmin #771c9e;
 }
-
-.startpagebutton{
- background: linear-gradient(to right,#9507e1 ,#e77206);
- background-color: #9507e1;
- color: #fff;
-}
-.startpagebutton:hover{
- background: linear-gradient(to right,#a351e4 ,#ea8751);
- background-color: #a351e4;
-}
-.startpagebutton:active{
-}

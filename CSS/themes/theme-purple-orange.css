@@ -1,6 +1,19 @@
 body {
-    background-image: linear-gradient(to right bottom, #c423d2, #ff0097, #ff3d5f, #ff7b2f, #ebab12);
-    background-size: cover;
+  background: linear-gradient(304deg,#ff8800,#f507e2);
+  background-size: 120% 120%;
+  animation: gradient-animation 12s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .startpagename {

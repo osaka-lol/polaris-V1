@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(to right bottom, #c423d2, #ff0097, #ff3d5f, #ff7b2f, #ebab12);
+    background-size: cover;
 }
 
 .startpagename {

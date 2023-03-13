@@ -1,6 +1,6 @@
 .startpagebutton{
  font-family: Trebuchet MS;
- font-size: 3vmin;
+ font-size: 2.5vmin;
  font-weight: 800;
  font-style: normal;
  text-decoration: none;
@@ -8,7 +8,8 @@
  border: 0px solid #000;
  border-radius: 26px;
  display: inline-block;
- box-shadow: 0vmin 5vim 15vmin 5vmin #2D2D2D;
+ box-shadow: 0vmin 1vim 3vmin 2vmin #2D2D2D;
+ text-align: center;
 }
 .startpagebutton:hover{
  cursor: pointer;

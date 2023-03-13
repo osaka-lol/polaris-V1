@@ -1,4 +1,4 @@
-.background {
+#background {
   background: linear-gradient(304deg,#ff8800,#f507e2);
   background-size: 120% 120%;
   animation: gradient-animation 12s ease infinite;

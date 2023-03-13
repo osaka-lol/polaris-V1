@@ -10,6 +10,7 @@
  display: inline-block;
  box-shadow: 0px 0.5vmin 2.0vmin 0.5vmin #d93beb;
  background: black;
+ color: white;
  
 }
 .startpagebutton:hover{

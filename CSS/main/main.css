@@ -14,3 +14,24 @@
 .startpagename span{
 
 }
+
+.loader {
+   position: absolute;
+   transform: translate(-50%, -50%);
+   width: 6vmin;
+   height:6vmin;
+   border-radius: 50%;
+   border: 10px solid #fff;
+   border-top-color: #008cff;
+   animation: loader 1s linear infinite;
+   box-shadow: 0 0 10px #ffffff7a;
+}
+
+@keyframes loader {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}

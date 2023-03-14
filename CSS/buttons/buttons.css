@@ -1,4 +1,5 @@
 .startpagebutton {
+  position: relative;
   font-size: 5vmin;
   text-decoration: none;
   color: #ffffff;

@@ -16,7 +16,7 @@
 }
 
 .loader {
-   position: absolute;
+   position: relative;
    width: 8vmin;
    height:8vmin;
    border-radius: 50%;

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap');
 
 .startpagename {
   /*header on the start page index.html*/
@@ -5,6 +6,8 @@
   padding-top: 10vmin;
   margin: auto;
   text-align: center;
+  font-weight: 700;
+}
 
 .startpagename span{
 

@@ -24,6 +24,7 @@
    border-top-color: #008cff;
    animation: loader 1s linear infinite;
    box-shadow: 0 0 10px #ffffff7a;
+   text-align:center;
 }
 
 @keyframes loader {

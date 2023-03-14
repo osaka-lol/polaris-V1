@@ -25,14 +25,14 @@
     #ff0000
   );
   position: absolute;
-  top: -2px;
+  top: -2.2px;
   left: -2px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
   -webkit-filter: blur(5px);
-  width: calc(100% + 0.8vmin);
-  height: calc(100% + 1.2vmin);
+  width: calc(100% + 0.6vmin);
+  height: calc(100% + 1.0vmin);
   animation: glowing-button-85 20s linear infinite;
   transition: opacity 0.3s ease-in-out;
   border-radius: 1.5vmin;

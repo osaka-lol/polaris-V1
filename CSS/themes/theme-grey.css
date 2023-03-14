@@ -11,8 +11,15 @@
 
 .startpagename {
   text-shadow: 1.2vmin 1.2vmin /*#771c9e*/#d93beb, 1.2vmin 1.2vmin 10vmin #d93beb;
+  animation: glow 1s infinite alternate;
+  color: rgb(255, 255, 255);
 }
 
-.startpagename {
-  color: rgb(255, 255, 255);
-} 
+@keyframes glow {
+  from {
+    text-shadow: 1.2vmin 1.2vmin /*#771c9e*/#d93beb, 1.2vmin 1.2vmin 10vmin #d93beb;
+  }
+  to {
+    text-shadow: 1.5vmin 1.5vmin /*#771c9e*/#d93beb, 1.5vmin 1.5vmin 12vmin #d93beb;
+  }
+}

@@ -12,7 +12,6 @@
 
 .startpagebutton:before {
   content: "";
-  color: brown;
   background: linear-gradient(
     45deg,
     #ff0000,

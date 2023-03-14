@@ -34,8 +34,8 @@
   z-index: -1;
   filter: blur(5px);
   -webkit-filter: blur(5px);
-  width: calc(100% + 4vmin);
-  height: calc(100% + 6vmin);
+  width: calc(100% + 1vmin);
+  height: calc(100% + 1.6vmin);
   animation: glowing-button-85 20s linear infinite;
   transition: opacity 0.3s ease-in-out;
   border-radius: 1.5vmin;

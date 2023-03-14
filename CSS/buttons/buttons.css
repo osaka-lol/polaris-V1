@@ -3,14 +3,14 @@
   font-size: 5vmin;
   text-decoration: none;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 2vmin;
   border: none;
-  border-radius: 10px;
+  border-radius: 1vmin;
   width: 12vmin;
   height: 4vmin;
   font-weight: bold;
   transition: 0.2s;
-  box-shadow: 0px 0px 7px 3px rgba(217, 59, 235, 1);
+  box-shadow: 0vmin 0vmin 0.7vmin 0.3vmin rgba(217, 59, 235, 1);
   background-color: #000000;
 }
 

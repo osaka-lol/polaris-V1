@@ -9,7 +9,6 @@
   position: relative;
   z-index: 0;
   border-radius: 1.5vmin;
-  opacity: 0.6;
 }
 
 .startpagebutton:before {

@@ -16,8 +16,7 @@
 }
 
 .loader {
-   position: absolute;
-   transform: translate(-50%, -50%);
+   position: relative;
    width: 6vmin;
    height:6vmin;
    border-radius: 50%;

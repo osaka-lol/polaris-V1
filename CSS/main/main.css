@@ -16,11 +16,11 @@
 }
 
 .loader {
-   position: relative;
+   position: absolute;
    width: 8vmin;
    height:8vmin;
    border-radius: 50%;
-   border: 1vmin solid #fff;
+   border: 2vmin solid #fff;
    border-top-color: #008cff;
    animation: loader 1s linear infinite;
    box-shadow: 0 0 1vmin ;

@@ -11,9 +11,9 @@
   margin: auto;
   text-align: center;
   font-weight: 700;
-  letter-spacing: 1px;
   font-family: Panton;
   letter-spacing: 2vmin;
+  text-shadow: 1.2vmin 1.2vmin #d93beb, 1.2vmin 1.2vmin 10vmin #d93beb;
 }
 
 .startpagename span{

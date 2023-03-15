@@ -1,13 +1,13 @@
 .startpagebutton {
   position: relative;
-  font-size: 5vmin;
+  font-size: 8vmin;
   text-decoration: none;
   color: #ffffff;
   font-size: 2vmin;
   border: none;
   border-radius: 1vmin;
-  width: 12vmin;
-  height: 4vmin;
+  width: 15vmin;
+  height: 6vmin;
   font-weight: bold;
   transition: 0.2s;
   box-shadow: 0vmin 0vmin 1vmin 0.5vmin rgba(217, 59, 235, 1);

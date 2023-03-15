@@ -10,6 +10,7 @@
   font-size: 2vmin;
   border: none;
   border-radius: 1vmin;
+  cursor: pointer;
   width: 9vmin;
   height: 4vmin;
   transition: 0.2s;

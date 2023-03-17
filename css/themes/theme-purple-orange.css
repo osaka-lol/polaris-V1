@@ -22,3 +22,8 @@
     background-position: 0% 50%;
   }
 }
+
+/*Hover color in navbar*/
+.navbar a:hover {
+  color: #f740dc;
+}

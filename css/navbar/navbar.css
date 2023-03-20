@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 *,
 *::after,
 *::before {
@@ -43,10 +43,11 @@
   order: 2;
   display: flex;
 }
+
 .logo {
   order: 1;
   font-size: 2.3rem;
-  font-family: "Lilita One";
+  font-family: 'Lato', sans-serif;
 }
 
 .menu-items li {

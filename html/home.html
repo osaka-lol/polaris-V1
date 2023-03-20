@@ -1,10 +1,19 @@
 <html>
   <head>
-    <link rel="stylesheet" href="css/main/main.css">
-    <link rel="stylesheet" href="css/buttons/buttons.css">
+    <link rel="stylesheet" href="/css/main/main.css">
+    <link rel="stylesheet" href="/css/buttons/buttons.css">
     <link rel="stylesheet" href="/css/navbar/navbar.css">
-    <!--links for theme-->
+    <!--this is the css link that gets chnaged when you switch themes-->
     <link id="style" rel="stylesheet" type="text/css" href="/css/themes/theme-purple-orange.css">
+    <!--fade in effect-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/effects/fadein.js"></script>
+    <style>
+      body {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+    </style>
   </head>
    <body>
      <div id="background">

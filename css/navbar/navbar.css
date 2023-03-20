@@ -46,14 +46,14 @@
 
 .logo {
   order: 1;
-  font-size: 5vh;
+  font-size: 6vh;
   font-family: 'Lato', sans-serif;
 }
 
 .menu-items li {
   list-style: none;
-  margin-left: 1.5rem;
-  font-size: 3vh;
+  margin-left: 2.5vh;
+  font-size: 4vh;
 }
 
 .navbar a {

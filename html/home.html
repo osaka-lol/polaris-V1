@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="/css/main/main.css">
     <link rel="stylesheet" href="/css/buttons/buttons.css">
     <link rel="stylesheet" href="/css/navbar/navbar.css">
+    <link rel="stylesheet" href="/css/sidebar/sidebar.css">
     <!--fontawesome link for icons-->
     <script src="https://kit.fontawesome.com/3a354a99c9.js" crossorigin="anonymous"></script>
     <!--this is the css link that gets changed when you switch themes-->
@@ -19,6 +20,7 @@
   </head>
    <body>
      <div id="background">
+      <!--navbar-->
       <nav class="navbar">
         <div class="navbar-container container">
             <input type="checkbox" name="" id="">
@@ -43,7 +45,19 @@
         </div>
     </nav>
     <script src="/js/navbar/navbar.js"></script>
- <!--end navbar-->
+    <!--end navbar-->
+    <!--sidebar-->
+       <div class="sidebar">
+  <button class="open-button" onclick="openSidebar()">Open Sidebar</button>
+  <ul class="menu">
+    <li><a href="#">Menu Item 1</a></li>
+    <li><a href="#">Menu Item 2</a></li>
+    <li><a href="#">Menu Item 3</a></li>
+    <li><a href="#">Menu Item 4</a></li>
+  </ul>
+</div>
+  <script src="/js/sidebar/sidebar.js"></script>
+     <!--end sidebar-->
      <!--script for theme-->
      <script src="js/themes/theme.js"></script>
      </div>

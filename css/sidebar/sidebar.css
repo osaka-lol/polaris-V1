@@ -6,6 +6,7 @@
   height: 80vh;
   background-color: #f0f0f0;
   transition: all 0.3s ease;
+  border-radius: 5vh;
 }
 
 .open-sidebar {
@@ -15,7 +16,6 @@
 .menu {
   margin-top: 20vh;
   padding: 0;
-  border-radius: 5vh;
   list-style-type: none;
 }
 

@@ -4,7 +4,9 @@
   right: -60vh;
   width: 60vh;
   height: 80vh;
-  background-color: #f0f0f0;
+  background: #1e2124;
+  color: #fff;
+  opacity: 0.85;
   transition: all 0.3s ease;
   border-radius: 5vh;
 }

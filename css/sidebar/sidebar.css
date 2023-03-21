@@ -9,6 +9,7 @@
   opacity: 0.85;
   transition: all 0.3s ease;
   border-radius: 5vh;
+  box-shadow: 0vh 0.75vh 1.5vh 0vh #2e2e2e;
 }
 
 .open-sidebar {

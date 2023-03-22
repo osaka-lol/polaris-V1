@@ -30,5 +30,6 @@
 /*do the same color here*/
 .navbar h3:hover {
   color: #f740dc;
+  cursor: pointer;
 }
 

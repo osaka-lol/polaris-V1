@@ -27,3 +27,8 @@
 .navbar a:hover {
   color: #f740dc;
 }
+/*do the same color here*/
+.navbar h3:hover {
+  color: #f740dc;
+}
+

@@ -1,6 +1,7 @@
 .sidebar {
   position: fixed;
   top: 15vh;
+  font-family: Lato;
   right: -60vh;
   width: 40vh;
   height: 80vh;
@@ -23,13 +24,14 @@
 }
 
 .menu li {
-  margin-bottom: 5vh;
+  padding: 5px;
 }
 
 .menu li a {
   display: block;
+  border-radius: 10px;
   padding: 2vh;
-  color: #333;
+  color: #ffffff;
   text-decoration: none;
 }
 

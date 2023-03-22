@@ -70,8 +70,8 @@
   font-weight: 500;
   transition: color 0.3s ease-in-out;
   font-family: "Lato";
+  font-size: 3vh;
 }
-
 
 @media (max-width: 710px) {
   .navbar {

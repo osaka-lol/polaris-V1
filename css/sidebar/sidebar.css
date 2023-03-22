@@ -2,7 +2,7 @@
   position: fixed;
   top: 15vh;
   right: -60vh;
-  width: 60vh;
+  width: 40vh;
   height: 80vh;
   background: #1e2124;
   color: #fff;
@@ -13,7 +13,7 @@
 }
 
 .open-sidebar {
-  right: -20vh;
+  right: 0vh;
 }
 
 .menu {

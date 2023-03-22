@@ -19,10 +19,3 @@
 .startpagebutton:hover {
   transform: scale(1.05);
 }
-
-.settings-icon { 
-display: inline-block;
-width: 64px;
-height: 64px;
-background: url('/assets/fonts/icons/settings.png');
-}

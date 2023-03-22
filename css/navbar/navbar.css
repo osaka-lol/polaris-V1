@@ -181,12 +181,3 @@
   }
 }
 
-.settings-icon { 
-display: inline-block;
-width: 5vh;
-height: 5vh;
-background-color: #fff;
-background: url('/assets/fonts/icons/settings.png');
-background-size: contain;
-background-repeat: no-repeat;
-}

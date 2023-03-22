@@ -33,7 +33,7 @@
   font-size: 2.5vh;
   font-weight: bold;
   cursor: pointer;
-  
+  text-align: center;
 }
 
 .menu li {
@@ -42,7 +42,7 @@
 
 .menu li a {
   display: block;
-  border-radius: 10px;
+  border-radius: 1.5vh;
   padding: 2vh;
   color: #ffffff;
   text-decoration: none;

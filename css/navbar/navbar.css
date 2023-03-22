@@ -183,8 +183,8 @@
 
 .settings-icon { 
 display: inline-block;
-width: 2vh;
-height: 2vh;
+width: 5vh;
+height: 5vh;
 background-color: #fff;
 background: url('/assets/fonts/icons/settings.png');
 background-size: contain;

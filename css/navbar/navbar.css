@@ -180,3 +180,13 @@
     display: none;
   }
 }
+
+.settings-icon {
+  /* bunch of pretty styles, oh wow */
+  &::after {
+    content: url('/assets/fonts/icons/icons8-settings.svg');
+    display: block;
+    height: 1.5em;
+    width: 1.5em;
+  }
+}

@@ -24,14 +24,16 @@
 }
 
 #styleSelect {
-  padding: 5px;
+  padding: 0.7vh;
+  border-radius: 2vh;
   background-color: #fdddf5;
   border: none;
   color: #333333;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 1.5vh 3vh;
+  font-size: 2.5vh;
   font-weight: bold;
   cursor: pointer;
+  
 }
 
 .menu li {

@@ -37,7 +37,7 @@
   text-align: center;
 }
 
-.styleSelect-dropdown {
+#themedropdown {
   display: none;
   position: absolute;
   top: calc(100% + 5vh);

@@ -24,7 +24,7 @@
   list-style-type: none;
 }
 
-.styleSelect {
+#styleSelect {
   padding: 0.7vh;
   border-radius: 5vh;
   background-color: #fdddf5;

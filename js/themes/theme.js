@@ -7,7 +7,7 @@ function changeStyle(style) {
 // add click event listeners to the buttons
 var button1 = document.getElementById("creamsicle");
 button1.addEventListener("click", function() {
-  changeStyle("/css/themes/theme-creamsicle.css");
+  changeStyle("/css/themes/theme-purple-orange.css");
 });
 
 var button2 = document.getElementById("grey");

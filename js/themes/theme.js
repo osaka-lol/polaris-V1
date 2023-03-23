@@ -5,12 +5,12 @@ function changeStyle(style) {
 }
 
 // add click event listeners to the buttons
-var button1 = document.getElementById("button1");
+var button1 = document.getElementById("creamsicle");
 button1.addEventListener("click", function() {
-  changeStyle("style1.css");
+  changeStyle("/css/themes/theme-creamsicle.css");
 });
 
-var button2 = document.getElementById("button2");
+var button2 = document.getElementById("grey");
 button2.addEventListener("click", function() {
-  changeStyle("style2.css");
+  changeStyle("/css/themes/theme-grey.css");
 });

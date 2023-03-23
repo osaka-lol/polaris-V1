@@ -1,22 +1,16 @@
-// script.js
-function changeStyle() {
-  var styleSelect = document.getElementById("styleSelect");
-  var selectedStyle = styleSelect.options[styleSelect.selectedIndex].value;
-  var styleLink = document.getElementById("style");
-  styleLink.href = selectedStyle;
-  localStorage.setItem("selectedStyle", selectedStyle);
+// define a function to change the CSS file
+function changeStyle(style) {
+  var styleLink = document.getElementById("style-link");
+  styleLink.href = style;
 }
 
-// load selected style from local storage
-var selectedStyle = localStorage.getItem("selectedStyle");
-if (selectedStyle) {
-  var styleLink = document.getElementById("style");
-  styleLink.href = selectedStyle;
-  var styleSelect = document.getElementById("styleSelect");
-  for (var i = 0; i < styleSelect.options.length; i++) {
-    if (styleSelect.options[i].value == selectedStyle) {
-      styleSelect.selectedIndex = i;
-      break;
-    }
-  }
-}
+// add click event listeners to the buttons
+var button1 = document.getElementById("button1");
+button1.addEventListener("click", function() {
+  changeStyle("style1.css");
+});
+
+var button2 = document.getElementById("button2");
+button2.addEventListener("click", function() {
+  changeStyle("style2.css");
+});

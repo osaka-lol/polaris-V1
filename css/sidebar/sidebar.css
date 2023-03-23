@@ -3,7 +3,7 @@
   top: 15vh;
   font-family: Lato;
   right: -40vh;
-  width: 40vh;
+  width: 60vh;
   height: 80vh;
   background: #1e2124;
   color: #fff;
@@ -15,7 +15,7 @@
 }
 
 .open-sidebar {
-  right: 50vh;
+  right: 10vh;
 }
 
 .menu {

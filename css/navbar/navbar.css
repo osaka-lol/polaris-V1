@@ -73,7 +73,7 @@
   font-size: 3vh;
 }
 
-@media (max-width: 710px) {
+@media (max-width: 210px) {
   .navbar {
     opacity: 0.95;
   }

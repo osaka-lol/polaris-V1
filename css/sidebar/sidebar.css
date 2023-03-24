@@ -24,18 +24,8 @@
 }
 
 .menu li {
-  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5vh;
 }
 
-.menu li a {
-  display: block;
-  border-radius: 1.5vh;
-  padding: 2vh;
-  color: #ffffff;
-  text-decoration: none;
-  text-align: center;
-}
-
-.menu li a:hover {
-  background-color: #ddd;
-}

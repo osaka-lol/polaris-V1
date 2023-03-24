@@ -32,8 +32,9 @@
   color: white;
   width: 10vh;
   height: 4vh;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .themebutton:hover {
-  
+  background-color: #1e1f21;
 }

@@ -18,12 +18,9 @@
 }
 
 .menu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.5vh;
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  top: -15vh;
-  right:15vh;
+  align-items: center;
 }
 

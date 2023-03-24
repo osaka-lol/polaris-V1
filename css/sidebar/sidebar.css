@@ -20,8 +20,9 @@
 .menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5vh;
-  text-align: center;
+  gap: 0.5vh;
+  align-items: center;
   justify-content: center;
+  top: 15vh;
 }
 

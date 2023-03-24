@@ -23,15 +23,15 @@
 .themebutton {
   font-family: Lato;
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vh;
   box-shadow: 0.5vh 0.5vh 1vh 0vh rgba(0,0,0,0.75);
   border: none;
   border-radius: 2vh;
   cursor: pointer;
   background-color: #16181a;
   color: white;
-  width: 18vh;
-  height: 6vh;
+  width: 12vh;
+  height: 4.5vh;
 }
 
 .themebutton:hover {

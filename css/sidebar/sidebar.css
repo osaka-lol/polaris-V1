@@ -18,12 +18,6 @@
 }
 
 .menu {
-  margin-top: 20vh;
-  padding: 0;
-  list-style-type: none;
-}
-
-.menu li {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5vh;

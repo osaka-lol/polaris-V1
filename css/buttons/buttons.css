@@ -23,9 +23,9 @@
 .themebutton {
   font-family: Lato;
   font-size: 3vh;
-  box-shadow: 2vh 2vh 3.5vh 0px rgba(0,0,0,0.75);
+  box-shadow: 1.5vh 1.5vh 0.5vh 0vh rgba(0,0,0,0.75);
   border: none;
-  border-radius: 3vh;
+  border-radius: 2vh;
   cursor: pointer;
   background-color: #16181a;
   color: white;

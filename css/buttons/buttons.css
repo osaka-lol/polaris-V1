@@ -27,6 +27,7 @@
   border-radius: 3vmin;
   cursor: pointer;
   background-color: #1f1f1f;
-  width: 5vmin;
-  height: 2vmin;
+  color: white;
+  width: 8vmin;
+  height: 6vmin;
 }

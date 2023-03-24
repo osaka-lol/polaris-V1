@@ -22,12 +22,13 @@
 
 .themebutton {
   font-family: Lato;
+  font-size: 6vmin;
   box-shadow: 0vmin 0vmin 1vmin 0.5vmin rgba(217, 59, 235, 1);
   border: none;
   border-radius: 3vmin;
   cursor: pointer;
   background-color: #1f1f1f;
   color: white;
-  width: 8vmin;
+  width: 18vmin;
   height: 6vmin;
 }

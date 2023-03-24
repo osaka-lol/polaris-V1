@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 .sidebar {
   position: fixed;
   top: 15vh;
@@ -26,3 +28,9 @@
   margin-top: 2vh;
 }
 
+.theme-title {
+  text-size: 2.5vh;
+  color: white;
+  text-align: center;
+  font-family: Lato;
+}

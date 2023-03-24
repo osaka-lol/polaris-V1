@@ -12,7 +12,7 @@
   width: 18vmin;
   height: 8vmin;
   transition: 0.2s;
-  box-shadow: 0vmin 0vmin 1vmin 0.5vmin rgba(217, 59, 235, 1);
+  box-shadow: 0vh 0vh 1vh 0.5vh rgba(217, 59, 235, 1);
   background-color: #000000;
 }
 
@@ -22,13 +22,13 @@
 
 .themebutton {
   font-family: Lato;
-  font-size: 3vmin;
-  box-shadow: 0vmin 0vmin 1vmin 0.5vmin rgba(217, 59, 235, 1);
+  font-size: 3vh;
+  box-shadow: 2vh 2vh 3.5vh 0px rgba(0,0,0,0.75);
   border: none;
-  border-radius: 3vmin;
+  border-radius: 3vh;
   cursor: pointer;
   background-color: #16181a;
   color: white;
-  width: 18vmin;
-  height: 6vmin;
+  width: 18vh;
+  height: 6vh;
 }

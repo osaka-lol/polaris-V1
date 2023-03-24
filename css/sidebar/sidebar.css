@@ -22,5 +22,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 1.5vh;
+  top: -2vh;
 }
 

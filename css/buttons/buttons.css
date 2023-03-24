@@ -23,7 +23,7 @@
 .themebutton {
   font-family: Lato;
   text-align: center;
-  font-size: 1.8vh;
+  font-size: 2vh;
   box-shadow: 0.5vh 0.5vh 1vh 0vh rgba(0,0,0,0.75);
   border: none;
   border-radius: 2vh;
@@ -31,7 +31,7 @@
   background-color: #16181a;
   color: white;
   width: 10vh;
-  height: 3.8vh;
+  height: 4vh;
 }
 
 .themebutton:hover {

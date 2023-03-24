@@ -13,3 +13,13 @@
   text-shadow: 1.2vmin 1.2vmin #d93beb, 1.2vmin 1.2vmin 10vmin #d93beb;
   color: rgb(255, 255, 255);
 }
+
+/*Hover color in navbar*/
+.navbar a:hover {
+  color: #36393e;
+}
+/*do the same color here*/
+.navbar h3:hover {
+  color: #36393e;
+  cursor: pointer;
+}

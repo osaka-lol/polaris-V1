@@ -37,10 +37,10 @@
 }
 
 hr.rounded {
-  border-top: 0.6vh solid #bbb;
+  border-top: 0.4vh solid #bbb;
   border-radius: 0.6vh;
-  margin-left: 5vh;
-  margin-right: 5vh;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  margin-left: 4vh;
+  margin-right: 4vh;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
 }

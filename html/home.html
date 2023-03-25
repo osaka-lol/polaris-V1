@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="/css/buttons/buttons.css">
     <link rel="stylesheet" href="/css/navbar/navbar.css">
     <link rel="stylesheet" href="/css/sidebar/sidebar.css">
+    <!--css link that gets changed for theme-->
+    <link id="stylesheet" rel="stylesheet" href="/css/themes/theme-purple-orange.css">
     <!--fade in effect-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="/js/effects/fadein.js"></script>
@@ -42,11 +44,10 @@
      <div class="sidebar">
      <h1 class="sidebar-header">Themes</h1>
       <div class="menu">
-        <button class="themebutton" id="theme1">Flamingo</button>
-        <button class="themebutton" id="theme2">Dark</button>
-        <button class="themebutton" id="theme3">theme3</button>
-        <button class="themebutton" id="theme4">theme4</button>
-        <link id="style-link" rel="stylesheet" href="/css/themes/theme-purple-orange.css">
+        <button class="themebutton" onclick="changeStylesheet('/css/themes/theme-flamingo.css')">Flamingo</button>
+        <button class="themebutton" onclick="changeStylesheet('/css/themes/theme-dark.css')">Dark</button>
+        <button class="themebutton" onclick="changeStylesheet('')">theme3</button>
+        <button class="themebutton" onclick="changeStylesheet('')">theme4</button>
        </div>
      </div>
   <script src="/js/sidebar/sidebar.js"></script>

@@ -39,5 +39,6 @@
 hr.rounded {
   border-top: 1vh solid #bbb;
   border-radius: 0.6vh;
-  border-left-width: 4vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
 }

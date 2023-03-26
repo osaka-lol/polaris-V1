@@ -1,20 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap");
-@font-face {
-  font-family: P;
-  src: url("/ASSETS/fonts/uni-sans.heavy-caps.otf") format("opentype");
-}
-
-.startpagename {
-  /*header on the start page index.html*/
-  font-size: 35vmin;
-  padding-top: 10vmin;
-  margin: auto;
-  text-align: center;
-  font-weight: 700;
-  font-family: Panton;
-  letter-spacing: 2vmin;
-  text-shadow: 1.2vmin 1.2vmin #d93beb, 1.2vmin 1.2vmin 10vmin #d93beb;
-}
 
 .mainpage-items {
   display: flex;

@@ -1,5 +1,5 @@
 #background {
-  background: linear-gradient(304deg,#dc143c,#000000);
+  background: linear-gradient(304deg,#000000,#dc143c);
   background-size: 120% 120%;
   animation: gradient-animation 12s ease infinite;
   position: absolute;

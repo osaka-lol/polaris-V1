@@ -44,13 +44,12 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  border: none;
-  border-radius: 2vmin;
-  
 }
 
 .mainpageimage-button img {
   display: block;
   width: 100%;
   height: auto;
+  border: none;
+  border-radius: 2vmin;
 }

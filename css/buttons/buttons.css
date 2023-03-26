@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-.startpagebutton {
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-  color: #ffffff;
-  font-size: 5vmin;
-  border: none;
-  border-radius: 3vmin;
-  cursor: pointer;
-  width: 18vmin;
-  height: 8vmin;
-  transition: 0.2s;
-  box-shadow: 0vh 0vh 1vh 0.5vh rgba(217, 59, 235, 1);
-  background-color: #000000;
-}
-
-.startpagebutton:hover {
-  transform: scale(1.05);
-}
-
 .themebutton {
   font-family: Lato;
   text-align: center;

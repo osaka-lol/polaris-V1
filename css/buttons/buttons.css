@@ -44,6 +44,9 @@
   border: none;
   padding: 0;
   cursor: pointer;
+  border: none;
+  border-radius: 2vmin;
+  
 }
 
 .mainpageimage-button img {

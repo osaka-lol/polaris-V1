@@ -38,3 +38,16 @@
 .themebutton:hover {
   background-color: #1e1f21;
 }
+
+.mainpageimage-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.mainpageimage-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

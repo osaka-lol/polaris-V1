@@ -44,7 +44,8 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  width:30vh;
+  justify-content: center;
+  text-align: center;
   
 }
 

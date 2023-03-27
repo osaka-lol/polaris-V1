@@ -30,6 +30,10 @@
   
 }
 
+.mainpageimage-button:hover{
+  transform: scale(0.98);
+}
+
 .mainpageimage-button img {
   display: block;
   width: 100%;

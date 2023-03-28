@@ -104,12 +104,12 @@ function setCloak(cloak) { // applies only to premade cloaks
   switch (cloak) {
     case "search": // Google Search
       setTitle("Google");
-      setFavicon("assets/fonts/icons/Google.ico");
+      setFavicon("/assets/fonts/icons/Google.ico");
       location.reload();
       break;
     case "drive": // Google Drive
       setTitle("My Drive - Google Drive");
-      setFavicon("assets/fonts/icons/Drive.ico");
+      setFavicon("/assets/fonts/icons/Drive.ico");
       location.reload();
       break;
       case "librex": // LibreX
@@ -124,7 +124,7 @@ function setCloak(cloak) { // applies only to premade cloaks
       break;  
     case "gmail": // Gmail
       setTitle("Gmail");
-      setFavicon("assets/fonts/icons/Gmail.ico");
+      setFavicon("/assets/fonts/icons/Gmail.ico");
       location.reload();
       break;
     case "classroom": // Google Classroom
@@ -134,7 +134,7 @@ function setCloak(cloak) { // applies only to premade cloaks
       break;
     case "canvas": // Canvas 
       setTitle("Canvas");
-      setFavicon("assets/fonts/icons/Canvas.ico");
+      setFavicon("/assets/fonts/icons/Canvas.ico");
       location.reload();
       break;
     case "zoom": // Zoom

@@ -24,8 +24,8 @@ if (tabData.icon) {
 
 // Default tab settings
 var settingsDefaultTab = {
-  title: "Settings | 3kh0",
-  icon: "./images/logo.png",
+  title: "Polaris",
+  icon: "",
 };
 
 // Function to set the document title
@@ -117,11 +117,6 @@ function setCloak(cloak) { // applies only to premade cloaks
       setFavicon("./images/cloaks/9A58D8BC-6595-476A-AD95-B6D8880683C8.ico");
       location.reload();
       break;
-         case "bing": // Bing
-      setTitle("Bing");
-      setFavicon("./images/cloaks/60D97501-319D-490E-ABE8-C1EB41DCC09A.ico");
-      location.reload();
-      break;
     case "youtube": // YouTube 
       setTitle("YouTube");
       setFavicon("./images/cloaks/YouTube.ico");
@@ -130,16 +125,6 @@ function setCloak(cloak) { // applies only to premade cloaks
     case "gmail": // Gmail
       setTitle("Gmail");
       setFavicon("./images/cloaks/Gmail.ico");
-      location.reload();
-      break;
-    case "calendar": // Google Calendar
-      setTitle("Google Calendar");
-      setFavicon("./images/cloaks/Calendar.ico");
-      location.reload();
-      break;
-    case "meets": // Google Meet
-      setTitle("Google Meet");
-      setFavicon("./images/cloaks/Meet.ico");
       location.reload();
       break;
     case "classroom": // Google Classroom
@@ -155,16 +140,6 @@ function setCloak(cloak) { // applies only to premade cloaks
     case "zoom": // Zoom
       setTitle("Zoom");
       setFavicon("./images/cloaks/Zoom.ico");
-      location.reload();
-      break;
-    case "nitter": // Nitter
-      setTitle("nitter");
-      setFavicon("./images/cloaks/63DFB320-0EEC-4F06-AF02-C50DFD2B49AB.ico");
-      location.reload();
-      break;
-      case "teddit": // Teddit
-      setTitle("teddit");
-      setFavicon("./images/cloaks/EB4D8FE9-10E9-44B8-A6CE-3F9A0040F94A.ico");
       location.reload();
       break;
       case "cornhub": // Cornhub

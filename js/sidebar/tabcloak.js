@@ -10,7 +10,7 @@ driveBtn.addEventListener("click", function() {
   document.querySelector('link[rel="shortcut icon"]').href = "/assets/fonts/icons/Drive.ico"; // put file path for icon here
   // Save the choice to local storage
   localStorage.setItem("websiteTitle", document.title);
-  localStorage.setItem("websiteIcon", ""); // put file path for icon here
+  localStorage.setItem("websiteIcon", "/assets/fonts/icons/Drive.ico"); // put file path for icon here
 });
 
 canvasBtn.addEventListener("click", function() {
@@ -19,7 +19,7 @@ canvasBtn.addEventListener("click", function() {
   document.querySelector('link[rel="shortcut icon"]').href = "/assets/fonts/icons/Canvas.ico"; // put file path for icon here
   // Save the choice to local storage
   localStorage.setItem("websiteTitle", document.title);
-  localStorage.setItem("websiteIcon", ""); // put file path for icon here
+  localStorage.setItem("websiteIcon", "/assets/fonts/icons/Canvas.ico"); // put file path for icon here
 });
 
 gmailBtn.addEventListener("click", function() {
@@ -28,7 +28,7 @@ gmailBtn.addEventListener("click", function() {
   document.querySelector('link[rel="shortcut icon"]').href = "/assets/fonts/icons/Gmail.ico"; // put file path for icon here
   // Save the choice to local storage
   localStorage.setItem("websiteTitle", document.title);
-  localStorage.setItem("websiteIcon", ""); // put file path for icon here
+  localStorage.setItem("websiteIcon", "/assets/fonts/icons/Gmail.ico"); // put file path for icon here
 });
 
 googleBtn.addEventListener("click", function() {

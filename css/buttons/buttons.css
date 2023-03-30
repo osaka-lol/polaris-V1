@@ -47,7 +47,7 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.center-left {
+#panic-btn-centerleft {
   position: absolute;
   left: 0;
   top: 50%;

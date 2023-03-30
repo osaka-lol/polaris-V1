@@ -41,3 +41,8 @@
   border-radius: 4vh;
   box-shadow: 0vh 0.75vh 1.5vh 0vh #2e2e2e;
 }
+
+#fade-btn {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}

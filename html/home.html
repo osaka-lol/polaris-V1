@@ -60,7 +60,30 @@
         <button class="themebutton" onclick="changeFaviconTitle('button2', 'Button 2')">Button 2</button>
         <button class="themebutton" onclick="changeFaviconTitle('button3', 'Button 3')">Button 3</button>
         <button class="themebutton" onclick="changeFaviconTitle('button4', 'Button 4')">Button 4</button>
-        <script src="/js/sidebar/tabcloak.js"></script>
+        <script>
+      function changeFaviconTitle(faviconName, title) {
+        // Change favicon
+        var favicon = document.getElementById('favicon');
+        favicon.href = faviconName + '.png';
+        
+        // Change title
+        document.title = title;
+        
+        // Save changes to localStorage
+        localStorage.setItem('favicon', faviconName + '.png');
+        localStorage.setItem('title', title);
+      }
+      
+      // Load saved changes from localStorage
+      var savedFavicon = localStorage.getItem('favicon');
+      if (savedFavicon) {
+        document.getElementById('favicon').href = savedFavicon;
+      }
+      var savedTitle = localStorage.getItem('title');
+      if (savedTitle) {
+        document.title = savedTitle;
+      }
+    </script>
        </div>
        <div class="menu"> 
          <button style="width:15vh; margin-top: 40vh;" class="themebutton">Toggle Panic</button>

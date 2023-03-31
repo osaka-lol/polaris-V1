@@ -4,8 +4,7 @@
     <link rel="stylesheet" href="/css/buttons/buttons.css">
     <link rel="stylesheet" href="/css/navbar/navbar.css">
     <link rel="stylesheet" href="/css/sidebar/sidebar.css">
-    <title>Polaris</title>
-    <link rel="icon" id="favicon" href="favicon-default.png">
+    <title id="page-title">Polaris</title>
     <!--script for theme-->
     <script src="js/themes/theme.js"></script>
     <!--css link that gets changed for theme-->
@@ -57,11 +56,11 @@
        <hr class="rounded">
        <h1 class="sidebar-header">Cloaks</h1>
       <div class="menu">
-        <button class="themebutton">Button 1</button>
-        <button class="themebutton">Button 2</button>
-        <button class="themebutton">Button 3</button>
-        <button class="themebutton">Button 4</button>
-        <script src="/js/sidebar/tabcloak.js"></script>
+        <button class="themebutton" onclick="changeTitle('New Title 1')">Button 1</button>
+        <button class="themebutton" onclick="changeTitle('New Title 2')">Button 2</button>
+        <button class="themebutton" onclick="changeTitle('New Title 3')">Button 3</button>
+        <button class="themebutton" onclick="changeTitle('New Title 4')">Button 4</button>
+        <script src="/js/sidebar/titlecloak.js"></script>
        </div>
      </div>
   <script src="/js/sidebar/sidebar.js"></script>

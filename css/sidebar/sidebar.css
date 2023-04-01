@@ -3,9 +3,9 @@
 .sidebar {
   position: fixed;
   top: 15vh;
-  right: -60vh;
-  width: 50vh;
-  height: 80vh;
+  right: -60vmin;
+  width: 50vmin;
+  height: 80vmin;
   background: #1e2124;
   color: #fff;
   opacity: 0.85;

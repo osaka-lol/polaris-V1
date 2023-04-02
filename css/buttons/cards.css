@@ -7,7 +7,7 @@
   border-radius: 3.25vh;
 }
 .gamecard{
-  width: 30vh;
+  width: 28vh;
   height: 40vh;
   background-color: #2e2e2e;
   padding: 1.5vh; 
@@ -20,8 +20,6 @@
   
 }
 .gamecard:hover{
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
   box-shadow: 0vh 1vh 1.5vh 0vh #2e2e2e, 0vh 0vh 0.5vh 0vh #2e2e2e;
 }

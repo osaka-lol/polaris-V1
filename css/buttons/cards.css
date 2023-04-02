@@ -1,0 +1,23 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 170vh);
+  grid-template-rows: repeat(2, 270vh);
+  gap: 5vh;
+}
+
+.card {
+  height: 270vh;
+  width: 170vh;
+  background-color: #fff;
+  border: 0.5vh solid #ddd;
+  border-radius: 2vh;
+  box-shadow: 0 0 2vh rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}

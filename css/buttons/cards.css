@@ -16,12 +16,11 @@
   transition: transform .5s;
   justify-content: left;
   float: left;
-  box-shadow: 0vh 1vh 1.5vh 0vh #2e2e2e,  0vh 0vh 0.15vh 0vh #2e2e2e;
   
 }
 .gamecard:hover{
   transform: scale(1.1);
-  box-shadow: 0vh 1vh 1.5vh 0vh #2e2e2e, 0vh 0vh 0.5vh 0vh #2e2e2e;
+  /*box-shadow: 0vh 1vh 1.5vh 0vh #2e2e2e, 0vh 0vh 0.5vh 0vh #2e2e2e;*/
 }
 .gamename{
   font-size: 3vh;

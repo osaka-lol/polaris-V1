@@ -13,7 +13,6 @@
   padding: 1.5vh; 
   margin: 1.5vh;
   border-radius: 3vh;
-  transition: scale .5s;
   justify-content: left;
   float: left;
   display: flex;
@@ -29,7 +28,7 @@
 }
 
 .card:hover{
-  transform: scale(1.1);
+  /*transform: scale(1.1);*/
   /*box-shadow: 0vh 1vh 1.5vh 0vh #2e2e2e, 0vh 0vh 0.5vh 0vh #2e2e2e;*/
 }
 .cardname{

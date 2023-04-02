@@ -29,6 +29,7 @@
 }
 .gamecontainer{
   display: flex;
+  margin-top: 10vh;
   flex-direction: row;
   order: 0;
   flex-grow: 0;

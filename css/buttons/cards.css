@@ -16,7 +16,7 @@ body {
 .card {
   width: 28vh;
   height: 34vh;
-  border-radius: 3vh;
+  border-radius: 3.25vh;
   font-size: 1.75rem;
   color: #fff;
   background-color: #2e2e2e;
@@ -37,7 +37,6 @@ body {
   height: 25vh;
   display:inline-block; 
   padding: 0vh; 
-  margin-top: -0.75vh;
   border-radius: 3.25vh;
 }
 .card h1, .card h2 {

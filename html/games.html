@@ -78,55 +78,35 @@
       <!--end sidebar-->
       <div class="cardcontainer" id="card-container">
         <div id="spinner-container"></div>
-        <!--Begin card template-->
-        <div class="card-template" style="display: none;">
-          <a>
-            <img src="" class="cardimage" />
-            <p class="cardname">placeholder</p>
-          </a>
-        </div>
-        <!--End card template-->
-        <!--Begin card template-->
-        <div class="card-template" style="display: none;">
-          <a>
-            <img src="" class="cardimage" />
-            <p class="cardname">placeholder</p>
-          </a>
-        </div>
-        <!--End card template-->
-        <!--Begin card template-->
-        <div class="card-template" style="display: none;">
-          <a>
-            <img src="" class="cardimage" />
-            <p class="cardname">placeholder</p>
-          </a>
-        </div>
-        <!--End card template-->
-        <!--Begin card template-->
-        <div class="card-template" style="display: none;">
-          <a>
-            <img src="" class="cardimage" />
-            <p class="cardname">placeholder</p>
-          </a>
-        </div>
-        <!--End card template-->
       </div>
     </div>
     <script src="/js/effects/cardhover.js"></script>
     <script>
       const spinner = document.getElementById("spinner-container");
       spinner.innerHTML = '<div class="spinner"></div>';
-      fetch("/assets/games.json")
+
+      fetch("path/to/json/file")
         .then((response) => response.json())
         .then((data) => {
           const container = document.getElementById("card-container");
-          const cardTemplate = document.querySelector(".card-template");
 
           for (const game of data) {
-            const card = cardTemplate.cloneNode(true);
-            card.querySelector(".cardimage").src = game.image;
-            card.querySelector(".cardname").textContent = game.name;
-            card.classList.remove("card-template");
+            const card = document.createElement("div");
+            card.classList.add("card");
+
+            const link = document.createElement("a");
+            const image = document.createElement("img");
+            image.classList.add("cardimage");
+            image.src = game.image;
+
+            const name = document.createElement("p");
+            name.classList.add("cardname");
+            name.textContent = game.name;
+
+            link.appendChild(image);
+            link.appendChild(name);
+            card.appendChild(link);
+
             container.appendChild(card);
           }
 
@@ -134,6 +114,7 @@
         })
         .catch((error) => {
           spinner.remove();
+          alert("Error: " + error);
           console.error(error);
         });
     </script>

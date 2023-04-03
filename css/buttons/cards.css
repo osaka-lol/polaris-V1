@@ -1,51 +1,4 @@
-.cardimage{
-  width: 25vh;
-  height: 25vh;
-  display:inline-block; 
-  padding: 0vh; 
-  margin: 0vh;
-  border-radius: 3.25vh;
-}
-.card{
-  width: 28vh;
-  height: 40vh;
-  background-color: #2e2e2e;
-  padding: 1.5vh; 
-  margin: 1.5vh;
-  border-radius: 3vh;
-  justify-content: left;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transform-style: preserve-3d;
-  transform: perspective(1000px);
-  
-}
 
-.card h1, .card h2 {
-  transform: translateZ(50px);
-}
-
-.card:hover{
-  /*transform: scale(1.1);*/
-  /*box-shadow: 0vh 1vh 1.5vh 0vh #2e2e2e, 0vh 0vh 0.5vh 0vh #2e2e2e;*/
-}
-.cardname{
-  font-size: 3vh;
-  font-family: 'Nunito Sans';
-}
-.cardcontainer{
-  display: flex;
-  margin-top: 10vh;
-  flex-direction: row;
-  order: 0;
-  flex-grow: 0;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 1.5vh;
-}  
 
 * {
   margin: 0;
@@ -78,4 +31,34 @@ body {
   transform: translateZ(50px);
 }
 
+.cardimage{
+  width: 25vh;
+  height: 25vh;
+  display:inline-block; 
+  padding: 0vh; 
+  margin: 0vh;
+  border-radius: 3.25vh;
+}
+.card h1, .card h2 {
+  transform: translateZ(50px);
+}
 
+.card:hover{
+  /*transform: scale(1.1);*/
+  box-shadow: 1.5vh 2vh 1.5vh 0vh #2e2e2e,  0vh 0vh 0.15vh 0vh #2e2e2e;
+}
+.cardname{
+  font-size: 3vh;
+  font-family: 'Nunito Sans';
+}
+.cardcontainer{
+  display: flex;
+  margin-top: 10vh;
+  flex-direction: row;
+  order: 0;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5vh;
+}  

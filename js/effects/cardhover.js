@@ -1,5 +1,5 @@
 const tiltEffectSettings = {
-  max: 15, // max tilt rotation (degrees (deg))
+  max: 10, // max tilt rotation (degrees (deg))
   perspective: 1000, // transform perspective, the lower the more extreme the tilt gets (pixels (px))
   scale: 1.1, // transform scale - 2 = 200%, 1.5 = 150%, etc..
   speed: 500, // speed (transition-duration) of the enter/exit transition (milliseconds (ms))

@@ -47,7 +47,7 @@ body {
 .cardname{
   font-size: 3vh;
   font-family: 'Nunito Sans';
-  margin: 0.5vh;
+  margin-top: 1vh;
 }
 .cardcontainer{
   display: flex;

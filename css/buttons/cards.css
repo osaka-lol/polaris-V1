@@ -12,6 +12,7 @@ body {
   margin: 1vh;
   width: 28vh;
   height: 33.5vh;
+  cursor: pointer;
   border-radius: 3.25vh;
   font-size: 1.75rem;
   color: #fff;

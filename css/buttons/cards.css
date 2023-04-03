@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100..700&display=swap');
 
 * {
   margin: 0;
@@ -46,7 +46,7 @@ body {
 
 .cardname{
   font-size: 3vh;
-  font-family: 'Nunito Sans';
+  font-family: 'Lato';
   margin-top: 1vh;
 }
 .cardcontainer{

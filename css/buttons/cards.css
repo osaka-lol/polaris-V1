@@ -56,19 +56,19 @@ body {
   width: 100%;
   min-height: 100vh;
   display: flex;
-	align-items: center;
+  align-items: center;
   justify-content: space-evenly;
   background-color: #000;
 }
 .card {
-  width: 400px;
-  height: 500px;
+  width: 28vh;
+  height: 38vh;
   font-size: 1.75rem;
   color: #fff;
   background-color: #e84393;
   display: flex;
   flex-direction: column;
-	align-items: center;
+  align-items: center;
   justify-content: center;
   transform-style: preserve-3d;
   transform: perspective(1000px);

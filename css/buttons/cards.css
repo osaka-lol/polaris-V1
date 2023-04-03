@@ -9,6 +9,7 @@ body {
   background-color: #000;
 }
 .card {
+  margin: 1vh;
   width: 28vh;
   height: 33.5vh;
   border-radius: 3.25vh;

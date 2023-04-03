@@ -85,7 +85,7 @@
       const spinner = document.getElementById("spinner-container");
       spinner.innerHTML = '<div class="spinner"></div>';
 
-      fetch("/assets/games.json")
+      fetch("/assets/games/games.json")
         .then((response) => response.json())
         .then((data) => {
           const container = document.getElementById("card-container");

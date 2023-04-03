@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/css/main/main.css">
-    <link rel="stylesheet" href="/css/buttons/buttons.css">
-    <link rel="stylesheet" href="/css/navbar/navbar.css">
-    <link rel="stylesheet" href="/css/sidebar/sidebar.css">
-    <link rel="stylesheet" href="/css/buttons/cards.css">
+    <link rel="stylesheet" href="/css/main/spinner.css" />
+    <link rel="stylesheet" href="/css/main/main.css" />
+    <link rel="stylesheet" href="/css/buttons/buttons.css" />
+    <link rel="stylesheet" href="/css/navbar/navbar.css" />
+    <link rel="stylesheet" href="/css/sidebar/sidebar.css" />
+    <link rel="stylesheet" href="/css/buttons/cards.css" />
     <!--title and favicon cloak-->
     <title id="page-title">Polaris</title>
-    <link rel="icon" type="image/x-icon" href="/assets/fonts/icons/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/assets/fonts/icons/favicon.ico" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="/js/sidebar/faviconcloak.js"></script>
     <script src="/js/sidebar/titlecloak.js"></script>
     <!--script for theme-->
     <script src="/js/themes/theme.js"></script>
     <!--css link that gets changed for theme-->
-    <link id="stylesheet" rel="stylesheet" href="/css/themes/theme-purple-orange.css">
+    <link id="stylesheet" rel="stylesheet" href="/css/themes/theme-purple-orange.css" />
     <!--fade in effect-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="/js/effects/fadein.js"></script>
@@ -27,91 +28,118 @@
     </style>
     <!--hamburguer-->
   </head>
-   <body>
-     <div id="background">
+  <body>
+    <div id="background">
       <!--navbar-->
       <nav class="navbar">
         <div class="navbar-container container">
-            <input type="checkbox" name="" id="">
-            <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-            </div>
-            <ul class="menu-items">
-                <!--<li><a href="https://dsc.gg/skoolworld" target="_blank"><i class="fa-brands fa-discord fa-lg"></i></a></li>-->
-                <li><a href="/html/home.html">Home</a></li>
-                <li><a href="/html/games.html">Games</a></li>
-                <li><a href="">Apps</a></li>
-                <li><a href="">Unblocker</a></li>
-                <li><h3 onclick="openSidebar()">Settings</h3></li>
-            </ul>
+          <input type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+            <!--<li><a href="https://dsc.gg/skoolworld" target="_blank"><i class="fa-brands fa-discord fa-lg"></i></a></li>-->
+            <li><a href="/html/home.html">Home</a></li>
+            <li><a href="/html/games.html">Games</a></li>
+            <li><a href="">Apps</a></li>
+            <li><a href="">Unblocker</a></li>
+            <li><h3 onclick="openSidebar()">Settings</h3></li>
+          </ul>
           <h1 class="logo">Polaris</h1>
         </div>
-    </nav>
-    <script src="/js/navbar/navbar.js"></script>
-    <!--end navbar-->
-    <!--sidebar-->
-     <div class="sidebar">
-     <h1 class="sidebar-header">Themes</h1>
-      <div class="menu">
-        <button class="themebutton" onclick="changeStylesheet('/css/themes/theme-flamingo.css')">Flamingo</button>
-        <button class="themebutton" onclick="changeStylesheet('/css/themes/theme-dark.css')">Dark</button>
-        <button class="themebutton" onclick="changeStylesheet('/css/themes/theme-frost.css')">Frost</button>
-        <button class="themebutton" onclick="changeStylesheet('/css/themes/theme-crimson.css')">Crimson</button>
-        <script src="/js/themes/theme.js"></script>
-       </div>
-       <hr class="rounded">
-       <h1 class="sidebar-header">Cloaks</h1>
-      <div class="menu">
-        <button class="themebutton" onclick="changeTitle('Google')" data-favicon="/assets/fonts/icons/Google.ico">Google</button>
-        <button class="themebutton" onclick="changeTitle('Canvas')" data-favicon="/assets/fonts/icons/Canvas.ico">Canvas</button>
-        <button class="themebutton" onclick="changeTitle('Drive')" data-favicon="/assets/fonts/icons/Drive.ico">Drive</button>
-        <button class="themebutton" onclick="changeTitle('Gmail')" data-favicon="/assets/fonts/icons/Gmail.ico">Gmail</button>
-       </div>
-       <div class="menu"> 
-         <button style="width:15vh; margin-top: 40vh;" class="themebutton" onclick="changeTitle('Polaris');changeStylesheet('/css/themes/theme-flamingo.css')" data-favicon="/assets/fonts/icons/favicon.ico">Reset</button>
-       </div>
-     </div>
-  <script src="/js/sidebar/sidebar.js"></script>
-     <!--end sidebar-->
-        <div class="cardcontainer" id=""> 
-      <br>
-       <!--Begin card (copy here)-->
+      </nav>
+      <script src="/js/navbar/navbar.js"></script>
+      <!--end navbar-->
+      <!--sidebar-->
+      <div class="sidebar">
+        <h1 class="sidebar-header">Themes</h1>
+        <div class="menu">
+          <button class="themebutton" onclick="changeStylesheet('/css/themes/theme-flamingo.css')">Flamingo</button>
+          <button class="themebutton" onclick="changeStylesheet('/css/themes/theme-dark.css')">Dark</button>
+          <button class="themebutton" onclick="changeStylesheet('/css/themes/theme-frost.css')">Frost</button>
+          <button class="themebutton" onclick="changeStylesheet('/css/themes/theme-crimson.css')">Crimson</button>
+          <script src="/js/themes/theme.js"></script>
+        </div>
+        <hr class="rounded" />
+        <h1 class="sidebar-header">Cloaks</h1>
+        <div class="menu">
+          <button class="themebutton" onclick="changeTitle('Google')" data-favicon="/assets/fonts/icons/Google.ico">Google</button>
+          <button class="themebutton" onclick="changeTitle('Canvas')" data-favicon="/assets/fonts/icons/Canvas.ico">Canvas</button>
+          <button class="themebutton" onclick="changeTitle('Drive')" data-favicon="/assets/fonts/icons/Drive.ico">Drive</button>
+          <button class="themebutton" onclick="changeTitle('Gmail')" data-favicon="/assets/fonts/icons/Gmail.ico">Gmail</button>
+        </div>
+        <div class="menu">
+          <button style="width: 15vh; margin-top: 40vh;" class="themebutton" onclick="changeTitle('Polaris');changeStylesheet('/css/themes/theme-flamingo.css')" data-favicon="/assets/fonts/icons/favicon.ico">Reset</button>
+        </div>
+      </div>
+      <script src="/js/sidebar/sidebar.js"></script>
+      <!--end sidebar-->
+      <div class="cardcontainer" id="">
+        <br />
+        <!--Begin card (copy here)-->
         <div class="card">
-          <a><!--PUT GAME STUFF HERE--></a>
-           <img src="" class="cardimage"/>
-             <p class="cardname">placeholder</p>
-           </a>
-         </div>
-       <!--End card (end copy here)-->
-       <!--Begin card (copy here)-->
+          <a>
+            <!--PUT GAME STUFF HERE-->
+            <img src="" class="cardimage" />
+            <p class="cardname">placeholder</p>
+          </a>
+        </div>
+        <!--End card (end copy here)-->
+        <!--Begin card (copy here)-->
         <div class="card">
-          <a><!--PUT GAME STUFF HERE--></a>
-           <img src="" class="cardimage"/>
-             <p class="cardname">placeholder</p>
-           </a>
-         </div>
-       <!--End card (end copy here)-->
-       <!--Begin card (copy here)-->
+          <a>
+            <!--PUT GAME STUFF HERE-->
+            <img src="" class="cardimage" />
+            <p class="cardname">placeholder</p>
+          </a>
+        </div>
+        <!--End card (end copy here)-->
+        <!--Begin card (copy here)-->
         <div class="card">
-          <a><!--PUT GAME STUFF HERE--></a>
-           <img src="" class="cardimage"/>
-             <p class="cardname">placeholder</p>
-           </a>
-         </div>
-       <!--End card (end copy here)-->
-       <!--Begin card (copy here)-->
+          <a>
+            <!--PUT GAME STUFF HERE-->
+            <img src="" class="cardimage" />
+            <p class="cardname">placeholder</p>
+          </a>
+        </div>
+        <!--End card (end copy here)-->
+        <!--Begin card (copy here)-->
         <div class="card">
-          <a><!--PUT GAME STUFF HERE--></a>
-           <img src="" class="cardimage"/>
-             <p class="cardname">placeholder</p>
-           </a>
-         </div>
-       <!--End card (end copy here)-->
-       </div>
-       </div>
-     </div>
+          <a>
+            <!--PUT GAME STUFF HERE-->
+            <img src="" class="cardimage" />
+            <p class="cardname">placeholder</p>
+          </a>
+        </div>
+        <!--End card (end copy here)-->
+      </div>
+    </div>
     <script src="/js/effects/cardhover.js"></script>
-   </body>
+    <script>
+      const spinner = document.getElementById("spinner-container");
+      spinner.innerHTML = '<div class="spinner"></div>';
+      fetch("/assets/games.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const container = document.getElementById("card-container");
+          const cardTemplate = document.querySelector(".card-template");
+
+          for (const game of data) {
+            const card = cardTemplate.cloneNode(true);
+            card.querySelector(".cardimage").src = game.image;
+            card.querySelector(".cardname").textContent = game.name;
+            card.classList.remove("card-template");
+            container.appendChild(card);
+          }
+
+          spinner.remove();
+        })
+        .catch((error) => {
+          spinner.remove();
+          console.error(error);
+        });
+    </script>
+  </body>
 </html>

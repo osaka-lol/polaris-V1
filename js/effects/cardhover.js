@@ -50,3 +50,4 @@ function setTransition(event) {
     card.style.transition = "";
   }, tiltEffectSettings.speed);
 }
+

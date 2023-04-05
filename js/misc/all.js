@@ -1,1 +1,1 @@
-$('#loadnav').load(`${location.protocol}//${location.hostname}/html/nav.html`);
+$('#loadnav').load(`${location.protocol}//${location.host}/html/nav.html`);

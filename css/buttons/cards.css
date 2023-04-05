@@ -24,7 +24,7 @@ body {
   justify-content: center;
   transform-style: preserve-3d;
   transform: perspective(1000px);
-  box-shadow: 0vh 1vh 1.5vh 0vh #2e2e2e,  0vh 0vh 0.15vh 0vh #2e2e2e;
+  box-shadow: 0vh 0.5vh 1.5vh 0vh #2e2e2e,  0vh 0vh 0.15vh 0vh #2e2e2e;
 }
 .card h1, .card h2 {
   transform: translateZ(50px);

@@ -35,10 +35,6 @@
 
 .menu-items li a::after {
   content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
   height: 2px;
   /*make sure it matches the schlorbel found here /css/games/apps/css/css/css.css*/
   background-color: #e31919;

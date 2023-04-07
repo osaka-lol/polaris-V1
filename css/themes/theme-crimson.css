@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 
-.navbar a::after {
+.menu-items li::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -44,6 +44,6 @@
   transition: width 0.3s ease-in-out; /* add a transition effect to the width property */
 }
 
-.navbar a:hover::after {
+.menu-items li:hover::after {
   width: 100%; /* increase the width to 100% on hover */
 }

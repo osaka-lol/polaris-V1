@@ -32,3 +32,18 @@
   color: #e31919;
   cursor: pointer;
 }
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0; /* set initial width to 0 */
+  height: 2px; /* set the height of the line */
+  background-color: #e31919;;
+  transition: width 0.3s ease-in-out; /* add a transition effect to the width property */
+}
+
+.navbar a:hover::after {
+  width: 100%; /* increase the width to 100% on hover */
+}

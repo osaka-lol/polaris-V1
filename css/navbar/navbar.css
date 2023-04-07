@@ -23,7 +23,7 @@
 }
 
 .navbar {
-  box-shadow: 0vh 0.75vh 2.5vh 0vh #2e2e2e;
+  box-shadow: 0vh 0.75vh 2.5vh 0vh black;
   position: fixed;
   width: 100%;
   /*background: #1e2124;*/

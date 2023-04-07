@@ -27,9 +27,8 @@
   position: fixed;
   width: 100%;
   /*background: #1e2124;*/
-  background: black;
+  background-color: rgba(0,0,0,0.85);
   color: #fff;
-  opacity: 0.85;
   z-index: 100;
 }
 

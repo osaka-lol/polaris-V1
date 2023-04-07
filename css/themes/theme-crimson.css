@@ -32,11 +32,3 @@
   color: #e31919;
   cursor: pointer;
 }
-
-.menu-items li a::after {
-  content: '';
-  height: 2px;
-  /*make sure it matches the schlorbel found here /css/games/apps/css/css/css.css*/
-  background-color: #e31919;
-  transition: width 0.3s ease-in-out;
-}

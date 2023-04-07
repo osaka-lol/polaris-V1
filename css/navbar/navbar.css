@@ -56,6 +56,10 @@
   font-size: 3vh;
 }
 
+.menu-items li a:hover::after {
+  width: 100%;
+}
+
 .navbar a {
   color: #fff;
   text-decoration: none;

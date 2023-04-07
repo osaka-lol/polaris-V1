@@ -5,6 +5,7 @@
   text-align: center;
   font-size: 1.8vh;
   box-shadow: 0.5vh 0.5vh 1vh 0vh rgba(0,0,0,0.75);
+  opacity: 0.9;
   border: none;
   border-radius: 2vh;
   cursor: pointer;

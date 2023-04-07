@@ -26,7 +26,8 @@
   box-shadow: 0vh 0.75vh 2.5vh 0vh #2e2e2e;
   position: fixed;
   width: 100%;
-  background: #1e2124;
+  /*background: #1e2124;*/
+  background: black;
   color: #fff;
   opacity: 0.85;
   z-index: 100;

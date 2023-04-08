@@ -18,8 +18,13 @@
 .navbar a:hover {
   color: #36393e;
 }
-/*do the same color here*/
+/*dtyerasdfCHo-re*/
 .navbar h3:hover {
   color: #36393e;
   cursor: pointer;
+}
+
+/*SchongelBlogel*/
+#loader .loader {
+    border-top-color: #36393e;
 }

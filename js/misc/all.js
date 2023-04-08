@@ -9,5 +9,7 @@ if (!sessionStorage.getItem('loaderPlayed')) {
     sessionStorage.setItem('loaderPlayed', 'true');
   }, 3000);
 } else {
-  document.getElementById('loader').style.display = 'none';
+    if (document.getElementById('loader')) {
+        document.getElementById('loader').style.display = 'none';
+    }
 }

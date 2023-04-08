@@ -23,7 +23,7 @@
   }
 }
 
-/*Hover color in navbar*/
+/*Hoodlerschnoodel*/
 .navbar a:hover {
   color: #36c5f5;
 }
@@ -32,3 +32,10 @@
   color: #36c5f5;
   cursor: pointer;
 }
+
+/*SchongelBlogel*/
+#loader .loader {
+    border-top-color: #36c5f5;
+}
+
+

@@ -1,0 +1,45 @@
+#game-frame{
+  margin: 0 auto;
+  display: block;
+  border-top: 2.78vh solid black;
+  border-left: 2.78vh solid black;
+  border-right: 2.78vh solid black;
+  border-radius: 4.44vh 4.44vh 0 0;
+}
+
+#game-options{
+  max-width: 75%;
+  margin: 0 auto;
+  border: 2.78vh solid black;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 4.44vh 4.44vh;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#game-options > b {
+  display: inline-block;
+}
+
+.icons-options{
+  padding-right: 1.67vh;
+  padding-top: 0.28vh;
+  margin: 0;
+  display: inline-block;
+  float: right;
+}
+
+.game-name-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-options{
+  color: #ffffff;
+}
+
+#game-icon-sm{
+  border-radius: 0.83vh;
+}

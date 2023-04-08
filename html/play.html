@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/navbar/navbar.css" />
     <link rel="stylesheet" href="/css/sidebar/sidebar.css" />
     <link rel="stylesheet" href="/css/buttons/cards.css" />
+    <link rel="stylesheet" href="/css/iframe/iframe.css" />
     <!--title and favicon cloak-->
     <title id="page-title">Polaris</title>
     <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico" />
@@ -59,7 +60,33 @@
       </div>
       <script src="/js/sidebar/sidebar.js"></script>
       <!--end sidebar-->
-      
+      <!--AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-->
+      <iframe id="game-frame" scrolling="no" frameborder="0" width="75%" height="80%" cellspacing="0" src="https://example.com"></iframe>
+   <div id="game-options">
+   <div class="game-name-icon">
+     <table>
+       <tr>
+         <td><img src="https://via.placeholder.com/20x20?text=img" id="game-icon-sm" width="20" height="20"></td>
+         <td><b><p class="logo-options" id="logo-options">Failed to load game</p></b></td>
+       </tr>
+     </table>
+    </div>
+   <div class="icons-options">
+   <p>
+   <a href="#" style="padding-right: 10px;">
+   <i class="fa-solid fa-thumbs-up" style="color: #ffffff;"></i>
+   </a>
+  <a href="#" style="padding-right: 10px;">
+   <i class="fa-solid fa-heart" style="color: #ffffff;"></i></a>
+   <a href="#">
+   <i class="fa-solid fa-expand" style="color: #ffffff;" onclick="fullscreen()"></i></a>
+   </p>
+   </div>
+   </div>
+  <a href="setdata.html">Data set (for testing)</a>
+  <script src="/js/iframe/fullscreen.js"></script>
+  <script src="/js/iframe/setdata.js"></script>
+  <script src="/js/iframe/like.js"></script>
     </div>
   </body>
 </html>

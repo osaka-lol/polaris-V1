@@ -106,7 +106,7 @@
 
 #loader h1 {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -120,7 +120,7 @@
 
 #loader .loader {
     position: absolute;
-    top:63%;
+    top:57%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 6vw;

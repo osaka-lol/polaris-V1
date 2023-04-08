@@ -8,6 +8,7 @@ p{
 }
 #game-frame{
   margin: 0 auto;
+  margin-top: 15vh;
   display: block;
   border-top: 10px solid black;
   border-left: 10px solid black;
@@ -44,8 +45,4 @@ p{
 }
 #game-icon-sm{
   border-radius: 5px;
-}
-
-.thefuckingiframe{
-  margin-top: 15vh;
 }

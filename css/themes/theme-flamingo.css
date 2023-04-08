@@ -33,3 +33,7 @@
   cursor: pointer;
 }
 
+#loader .loader {
+    border-top-color: #f740dc;
+}
+

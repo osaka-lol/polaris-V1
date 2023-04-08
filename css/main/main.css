@@ -127,7 +127,6 @@
     height:6vw;
     border-radius: 50%;
     border: 10px solid #fff;
-    border-top-color: #fa4772;
     animation: loader 1s linear infinite;
 }
 

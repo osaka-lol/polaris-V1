@@ -32,3 +32,8 @@
   color: #e31919;
   cursor: pointer;
 }
+
+#loader .loader {
+    border-top-color: #e31919;
+}
+/*VERY IMPORTANT!!! SCHOODELFLOGENSHNORK*/

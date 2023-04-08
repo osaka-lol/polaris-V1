@@ -10,18 +10,18 @@ p{
   margin: 0 auto;
   margin-top: 15vh;
   display: block;
-  border-top: 10px solid black;
-  border-left: 10px solid black;
-  border-right: 10px solid black;
-  border-radius: 16px 16px 0px 0px;
+  border-top: 1vh solid black;
+  border-left: 1vh solid black;
+  border-right: 1vh solid black;
+  border-radius: 1.65vh 1.65vh 0vh 0vh;
 }
 #game-options{
   max-width: 60%;
   margin: 0 auto;
-  border: 10px solid black;
+  border: 1vh solid black;
   display: flex;
   justify-content: space-between;
-  border-radius: 0px 0px 16px 16px;
+  border-radius: 0vh 0vh 1.65vh 1.65vh;
   color: #ffffff;
   background-color: #000000;
 }
@@ -29,8 +29,8 @@ p{
   display: inline-block;
 }
 .icons-options{
-  padding-right: 15px;
-  padding-top: 2px;
+  padding-right: 1.5vh;
+  padding-top: 0.2vh;
   margin: 0;
   display: inline-block;
   float: right;
@@ -44,5 +44,5 @@ p{
   color: #ffffff;
 }
 #game-icon-sm{
-  border-radius: 5px;
+  border-radius: 0.5vh;
 }

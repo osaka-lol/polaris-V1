@@ -15,6 +15,7 @@ if (!sessionStorage.getItem('loaderPlayed')) {
 }
 
 function credits() {
+  document.getElementById('credits').style.animation = 'fadeIn 1s';
   document.getElementById('credits').style.display = 'block';
   document.querySelector('#clickbox').addEventListener('click', function(e) {
     if (e.target.id == 'clickbox') {
@@ -24,5 +25,8 @@ function credits() {
 }
 
 function closeCredits() {
-  document.getElementById('credits').style.display = 'none';
+  document.getElementById('credits').style.animation = 'fadeOut 1s';
+  setTimeout(function() {
+    document.getElementById('credits').style.display = 'none';
+  }, 1000);
 }

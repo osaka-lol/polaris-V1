@@ -13,3 +13,16 @@ if (!sessionStorage.getItem('loaderPlayed')) {
         document.getElementById('loader').style.display = 'none';
     }
 }
+
+function credits() {
+  document.getElementById('credits').style.display = 'block';
+  document.querySelector('#clickbox').addEventListener('click', function(e) {
+    if (e.target.id == 'clickbox') {
+      closeCredits();
+    }
+  });
+}
+
+function closeCredits() {
+  document.getElementById('credits').style.display = 'none';
+}

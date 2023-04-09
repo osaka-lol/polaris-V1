@@ -18,6 +18,7 @@
     <!--fade in effect-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="/js/effects/fadein.js"></script>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
   </head>
    <body>
     <div id="loader">
@@ -39,9 +40,18 @@
          <div class="mainpage-box">
            <p class="mainpage-text"><span class="bolded">Welcome to Polaris</span><br>Your gateway to games and beyond!</p>
            <br>
-           <button class="themebutton" onclick="">Credits</button>
+           <button class="themebutton" onclick="credits()">Credits</button>
          </div>
        </div>
+     </div>
+     <div id="credits">
+      <div id="clickbox"></div>
+      <div class="content">
+          <h1>Credits:</h1>
+          <p>BlazerHM - <span>CSS Dev</span><br />Joe Biden - <span>idk</span></p>
+          <div class="close" onclick="closeCredits()">
+            <i class="fa-regular fa-xmark"></i>
+          </div>
      </div>
    </body>
 </html>

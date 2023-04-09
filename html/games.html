@@ -71,6 +71,16 @@ spinner.innerHTML = '<div class="spinner"></div>';
 fetch("/assets/games/games.json")
   .then((response) => response.json())
   .then((data) => {
+  const ordered = Object.keys(data).sort().reduce(
+  (obj, key) => { 
+    obj[key] = data[key]; 
+    return obj;
+  }, 
+  {}
+);
+  data = ordered;
+  
+  
     const container = document.getElementById("card-container");
 
     for (const game of data) {

